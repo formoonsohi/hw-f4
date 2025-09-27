@@ -1,0 +1,14 @@
+.lazy {
+  height: 200px;
+  width: 100%;
+  display: block;
+  margin: 20px auto;
+  background-color: #f0f0f0; /* серый фон-заглушка */
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+/* Когда картинка загрузилась — показываем */
+.lazy.loaded {
+  opacity: 1;
+}

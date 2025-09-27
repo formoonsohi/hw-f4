@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEnd Homework</title>
+    <link rel="stylesheet" href="./styles/hw-f4-2.css" />
+    <link rel="stylesheet" href="./styles/hw-f4-3.css" />
+  </head>
+  <body>
+    <div class="slider">
+      <input
+        type="range"
+        min="50"
+        max="400"
+        value="200"
+        class="slider__input"
+      />
+      <img src="./img/test.jpg" class="slider__image" />
+    </div>
+    <div id="box"></div>
+    <!-- Дз 3 -->
+    <h1>Пример ленивой загрузки изображений</h1>
+    <!--* Несколько изображений с большим разрешением -->
+    <img
+      data-src="https://picsum.photos/id/1015/1600/900"
+      alt="Горы"
+      class="lazy"
+    />
+    <img
+      data-src="https://picsum.photos/id/1016/1600/900"
+      alt="Лес"
+      class="lazy"
+    />
+    <img
+      data-src="https://picsum.photos/id/1018/1600/900"
+      alt="Мост"
+      class="lazy"
+    />
+    <img
+      data-src="https://picsum.photos/id/1020/1600/900"
+      alt="Озеро"
+      class="lazy"
+    />
+    <img
+      data-src="https://picsum.photos/id/1024/1600/900"
+      alt="Щенок"
+      class="lazy"
+    />
+
+    <!--? Подключения -->
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="./js/hw-f4-2.js"></script>
+    <script src="./js/hw-f4-3.js"></script>
+  </body>
+</html>
