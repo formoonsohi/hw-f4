@@ -1,0 +1,8 @@
+{
+  "author": "Веранда",
+  "version": "1.0.0",
+  "description": "Первый проект на Node.js",
+  "scripts": {
+    "start": "node main.js"
+  }
+}
